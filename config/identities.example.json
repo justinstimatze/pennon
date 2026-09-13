@@ -1,0 +1,13 @@
+[
+  {
+    "name": "YOUR_IDENTITY_NAME@YOUR_HUMAN",
+    "client_id": "YOUR_OAUTH_CLIENT_ID",
+    "client_secret": "YOUR_OAUTH_CLIENT_SECRET"
+  },
+  {
+    "name": "YOUR_SPECIALIST_NAME",
+    "client_id": "YOUR_SPECIALIST_OAUTH_CLIENT_ID",
+    "client_secret": "YOUR_SPECIALIST_OAUTH_CLIENT_SECRET",
+    "kind": "specialist"
+  }
+]

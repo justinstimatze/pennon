@@ -1,0 +1,12 @@
+[
+  {
+    "team_id": "YOUR_LINEAR_TEAM_ID",
+    "state_id": "YOUR_IN_REVIEW_WORKFLOW_STATE_ID",
+    "policy": "advisory",
+    "specialist": {
+      "name": "Code Reviewer <name>",
+      "client_id": "YOUR_SPECIALIST_OAUTH_CLIENT_ID",
+      "client_secret": "YOUR_SPECIALIST_OAUTH_CLIENT_SECRET"
+    }
+  }
+]

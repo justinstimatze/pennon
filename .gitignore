@@ -1,0 +1,36 @@
+# binaries
+/pennon
+/dist/
+
+# test artifacts
+*.test
+*.out
+*.prof
+coverage.*
+
+# local secrets
+.env
+.env.local
+*.key
+
+# real gate/identity config (team/state/specialist/identity credentials) —
+# deployment-specific, see docs/ARCHITECTURE.md "Deployment config lives outside
+# pennon's own repo". The *.example.json files stay tracked; anything
+# else under config/ is local.
+/config/*.json
+!/config/gate.example.json
+!/config/identities.example.json
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# per-project Claude Code state
+/.claude/
+
+# plancheck's own debug scratch output, regenerated per /check-plan run
+.plancheck-debug.json
